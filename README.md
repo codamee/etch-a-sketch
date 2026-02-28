@@ -2,7 +2,9 @@
 
 A browser-based sketchpad that allows users to draw by hovering over a dynamic grid. This project focuses heavily on **DOM Manipulation** and **Event Listeners**.
 
-<p align="center">
+---
+
+<p>
   <img src="./screenshot.png" alt="Etch-a-Sketch Preview" width="500">
 </p>
 
