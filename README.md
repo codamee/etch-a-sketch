@@ -1,12 +1,23 @@
-# Etch_A_Sketch 
-This is a Minimal Sketchboard built using Html,css && Javascript.In this we have some basic features like erase,colors,resetting and changing the pixels of board.
+# Etch-a-Sketch
 
-[Live Demo](https://codamee.github.io/Etch-A-Sketch/)
+A browser-based sketchpad that allows users to draw by hovering over a dynamic grid. This project focuses heavily on **DOM Manipulation** and **Event Listeners**.
 
-## Features
-- By default the board has set to (50 * 50 Grid) & Color is Black
-- Change the grid size by clicking Pixels button(1 to 100 only)
-- To draw in random colors click on colors(Button color changes to green when it is on )
-- To erase the content drawn ,click on the Erase(Button color changes to green when turn on && after erasing please turn of the erase to draw Again)
-- To erase the Board completely use Reset button(Whole drawn content will be removed,So use it Carefully).
+<p align="center">
+  <img src="./screenshot.png" alt="Etch-a-Sketch Preview" width="500">
+</p>
 
+## 🚀 Live Demo
+[Try the Sketchpad Here](https://codamee.github.io/etch-a-sketch/)
+
+## 🎨 Key Features
+* **Dynamic Grid Generation:** A grid built entirely via JavaScript. Users can resize the grid (up to 100x100) via a popup prompt.
+* **Interactive Drawing:** Implemented "hover" functionality using mouse event listeners to change div background colors.
+* **Responsive Square Sizing:** Used Flexbox to ensure that no matter the grid size (16x16 or 64x64), the drawing area stays within a fixed 960px container.
+
+## 🛠️ Technical Skills
+* **DOM Manipulation:** Creating, appending, and removing elements using `document.createElement()` and `appendChild()`.
+* **Events:** Handling `mouseenter` and `click` events to drive user interaction.
+* **CSS Flexbox:** Managing complex layouts without using CSS Grid.
+
+---
+*Built as part of The Odin Project Foundations.*
